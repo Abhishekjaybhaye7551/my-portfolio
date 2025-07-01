@@ -1,0 +1,35 @@
+.skills-section {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.skill-bar {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.skill-bar span {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.bar {
+  height: 20px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: linear-gradient(90deg, #00bfff, #007acc);
+  animation: fillAnim 2s ease forwards;
+}
+
+@keyframes fillAnim {
+  from {
+    width: 0;
+  }
+}

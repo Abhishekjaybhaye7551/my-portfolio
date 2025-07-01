@@ -1,0 +1,182 @@
+/* General Reset & Font */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000;
+  scroll-behavior: smooth;
+}
+
+/* Navbar styling */
+.navbar {
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  padding: 14px 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.navbar a {
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #00bfff;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: #00bfff;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+/* Home Section */
+.home-section {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  text-align: center;
+  background: #000;
+  color: white;
+}
+
+/* Particles background layer */
+.particles-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Content layered above particles */
+.home-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid #00bfff;
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.6);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+/* Headings */
+.home-content h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.home-content h3 {
+  color: #00bfff;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+.home-content p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  background: #00bfff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  margin: 10px;
+  box-shadow: 0 4px 12px rgba(0, 191, 255, 0.2);
+}
+
+.btn:hover {
+  background: #009acd;
+  transform: translateY(-2px);
+}
+
+/* Sections */
+section {
+  padding: 80px 20px;
+}
+
+#projects,
+#contact,
+#skills,
+#about {
+  background: #f4f4f4;
+  color: #333;
+}
+
+#skills {
+  background: #e9ecef;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+/* Skills Bar */
+.skill-bar {
+  background: #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 16px;
+  margin-top: 6px;
+}
+
+.skill-fill {
+  height: 100%;
+  background: #00bfff;
+  border-radius: 20px;
+  transition: width 1s ease-in-out;
+}
+
+
+
+
+

@@ -1,0 +1,73 @@
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar base styling */
+.navbar {
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  padding: 14px 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+/* Navbar links */
+.navbar a {
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Underline animation */
+.navbar a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #00bfff;
+  transition: width 0.3s ease-in-out;
+}
+
+/* Hover effects */
+.navbar a:hover {
+  color: #00bfff;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+/* Active link styling (manual or scrollspy) */
+.navbar a.active {
+  color: #00bfff;
+}
+
+.navbar a.active::after {
+  width: 100%;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+
+
+
