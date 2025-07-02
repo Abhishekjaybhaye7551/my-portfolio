@@ -1,6 +1,6 @@
 # 💼 Personal Portfolio Website
 
-This is a modern and responsive personal portfolio website built using **React.js**, showcasing my skills, projects, and contact information.
+This is a modern and responsive personal portfolio website built using **React.js**, showcasing my skills, projects, and personal information.
 
 ## 🔗 Live Demo
 
@@ -15,7 +15,7 @@ This is a modern and responsive personal portfolio website built using **React.j
 ### 🏠 Home Section  
 ![Home](./screenshots/home.png)
 
-### 👤 About Section  
+### 👤 About Me Section  
 ![About](./screenshots/about.png)
 
 ### 🛠️ Skills Section  
@@ -24,27 +24,23 @@ This is a modern and responsive personal portfolio website built using **React.j
 ### 📁 Projects Section  
 ![Projects](./screenshots/projects.png)
 
-### 📬 Contact Section  
-![Contact](./screenshots/contact.png)
-
 ---
 
 ## 🚀 Features
 
-- Animated landing section with particle effects
-- Typewriter introduction for roles
-- Responsive design across all devices
-- Scroll animations and smooth navigation
-- Project list with icons and highlights
-- Integrated contact and social links
+- Animated landing section with particle effects  
+- Typewriter effect for role introduction  
+- Fully responsive design for all screen sizes  
+- Smooth scroll animations and navigation  
+- Project showcase with icons and brief details
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js, HTML5, CSS3, JavaScript
-- **Animation:** Framer Motion, React Simple Typewriter
-- **Visuals:** React Tsparticles, custom CSS effects
+- **Frontend:** React.js, HTML5, CSS3, JavaScript  
+- **Animations:** Framer Motion, React Simple Typewriter  
+- **Visual Effects:** React Tsparticles, custom CSS  
 - **Version Control:** Git & GitHub
 
 ---
